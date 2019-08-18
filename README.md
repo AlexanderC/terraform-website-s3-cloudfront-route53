@@ -1,5 +1,7 @@
 # Terraform setup for S3 static site with CloudFront, Certificate Manager and Route53
 
+> This fork makes  this module compatible with Terraform 0.12
+
 This Git repository contains the required [Terraform](https://www.terraform.io/)
 scripts to setup a static website, hosted out of an S3 bucket.
 The site is fronted by a CloudFront distribution, uses AWS Certificate Manager for HTTPS and allows
